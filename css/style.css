@@ -1,0 +1,84 @@
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --dark-blue: hsl(234, 12%, 34%);
+    --gray-blue: hsl(229, 6%, 66%);
+    --light-gray: hsl(0, 0%, 98%);
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: var(--light-gray);
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    width: 80vw;
+    margin: 23vw 10vw;
+}
+.header-title {
+    color: var(--gray-blue);
+    font-weight: 400;
+    font-size: 2.3rem;
+}
+.header-title span {
+    color: var(--dark-blue);
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+.header-description {
+    color: var(--gray-blue);
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+.boxes {
+    margin: 23vw 7vw;
+}
+.box {
+    position: relative;
+    padding: 7vw;
+    background-color: white;
+    border-radius: 1vw;
+    border-top-width: 1vw;
+    border-top-style: solid;
+    height: 60vw;
+    margin-bottom: 7vw;
+    box-shadow: 0 1vw 3vw 0vw var(--gray-blue);
+}
+.box-title {
+    color: var(--dark-blue);
+    font-weight: 600;
+    font-size: 2rem;
+}
+.box-description {
+    color: var(--gray-blue);
+    font-weight: 200;
+    font-size: 1.4rem;
+    margin-top: 1vw;
+}
+.box-image {
+    position: absolute;
+    bottom: 7vw;
+    right: 7vw;
+    width: 15vw;
+    height: 15vw;
+}
+.box.cyan-box {
+    border-top-color: var(--cyan);
+}
+.box.red-box {
+    border-top-color: var(--red);
+}
+.box.orange-box {
+    border-top-color: var(--orange);
+}
+.box.blue-box {
+    border-top-color: var(--blue);
+}
