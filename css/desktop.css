@@ -1,0 +1,39 @@
+.header {
+    width: 36vw;
+    margin: 5vw 32vw;
+    text-align: center;
+}
+.header-title {
+    font-size: 3.4rem;
+}
+.header-title span {
+    font-size: 3.6rem;
+}
+.boxes {
+    margin: 6vw 12vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.center-boxes {
+    display: flex;
+    flex-direction: column;
+}
+.box {
+    width: 24vw;
+    padding: 2vw;
+    border-radius: 0.5vw;
+    border-top-width: 0.5vw;
+    height: 19vw;
+    margin-bottom: 2vw;
+    box-shadow: 0 0.5vw 1vw 0vw rgba(0, 0, 0, 0.2);
+}
+.box-description {
+    font-size: 1.2rem;
+}
+.box-image {
+    bottom: 2vw;
+    right: 2vw;
+    width: 5vw;
+    height: 5vw;
+}
